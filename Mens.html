@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src="https://kit.fontawesome.com/4f0ae46a6d.js" crossorigin="anonymous"></script>
+
+
+  <title>My Shoppie | Mens Corner</title>
+<style>
+body {
+  margin: 0;
+  background:linear-gradient(to right,#d9d9d900,rgb(26 66 157)); 
+}
+ 
+/* input[type=text] {
+  width: 200px;
+  float:right;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  line-height: 60px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #125a93;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.gallery {
+  border: 1px solid rgb(0, 0, 0);
+  /* background-color: aqua; */
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  display: flex;
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="#home">Mens Fashion</a></li>
+  <li><a href="#news">Womens Fashion</a></li>
+  <li><a href="#contact">Kids</a></li>
+  <li><a href="#about">Discounted</a></li>
+  <li><a href="#fav">Favourites</a></li>
+</ul>
+
+<div style="margin-left:20%;padding:1px 16px;height:100%;overflow: hidden;">
+  <h2>Mens Fashion  
+    <form style="float: right;margin-top: -6px;">  <input type="text" placeholder="Search.." name="search"style="border-radius: 44px;">
+      <button type="submit"><i class="fa fa-search"></i></button>
+  <i class='fas fa-heart'style="float: right;margin-top: 7px;margin-left: 4px;color:red;background-color:white;border-radius: 1px;font-size: 19px;
+  "></i>
+  <i class='fas fa-shopping-cart'style="float:right;margin-top: 7px;margin-left: 4px;background-color: white;border-radius: 1px;font-size: 19px;
+  "></i></form>
+  </h2><hr>
+  <br>
+  <div class="box2">
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="mensproduct5.jpg">
+        <img src="mensproduct5.jpg">
+      </a>
+      <div class="desc">
+        <p><sup>$</sup>139 <br></p>
+        <i class='fas fa-star'></i>
+        <i class='fas fa-star'></i>
+        <i class='fas fa-star'></i>
+        <i class='fas fa-star'></i>
+        <i class='fas fa-star-half-alt'></i></div>
+  <p>H&M</p>  
+  </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
+
+
