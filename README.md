@@ -1,4 +1,8 @@
 # E-comwebsite
+You can visit this link for preview ------ https://64f8621f9d6a7a6f09b4f17f--shiny-custard-471d30.netlify.app/ 
+
+Deployed using netlify (zip drop)
+
 Reflecting on My Shoppie: My First HTML & CSS Journey 🌟
 
 Back in 2021, I set off on my coding adventure, and HTML & CSS felt like pure magic. Today, I want to share my journey with "My Shoppie," my very first website creation.
